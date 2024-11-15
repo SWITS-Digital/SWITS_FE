@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { Loader2 } from "lucide-react";
-import { Button } from "@/library/components/button";
+import { Button } from "@/library/components/buttons";
 import { Input } from "@/library/components/input";
 
 import { NotFoundContent } from "@/library/content/notfound.content";

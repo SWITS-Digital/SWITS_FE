@@ -22,7 +22,7 @@ import {
   FormMessage,
 } from "@/library/components/form";
 import { Input, PasswordInput } from "@/library/components/input";
-import { Button } from "@/library/components/button";
+import { Button } from "@/library/components/buttons";
 
 // Define the schema with Zod
 const StaticContents = AuthPageContent.authForm;

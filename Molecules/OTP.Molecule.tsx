@@ -6,7 +6,7 @@ import { AuthPageParent } from "@/library/screens/Auth.screen";
 import { AuthVerificationPageContent } from "@/library/content/auth.content";
 
 import { OTPCollectionFields } from "./Atoms/OtpFields.Atom";
-import { Button } from "@/library/components/button";
+import { Button } from "@/library/components/buttons";
 
 export function OneTimePwordComponent() {
   const [otpValue, setOtpValue] = useState<string>("");

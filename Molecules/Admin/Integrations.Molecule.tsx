@@ -7,7 +7,7 @@ import { RoutesListEnum } from "@/library/enum/routes.enum";
 import { IntegrationContent } from "@/library/content/admin/integration.content";
 
 import { PageLabel } from "@/library/components/page-label";
-import { Button } from "@/library/components/button";
+import { Button } from "@/library/components/buttons";
 import {
   Card,
   CardHeader,

@@ -9,7 +9,7 @@ import { AsideBarContext } from "@/store/context/Active-Page.context";
 
 import MockIntegrationJSON from "@/library/Iterator/integration.iterator.json";
 import { IndividualIntegrationContent } from "@/library/content/admin/integration.content";
-import { Button } from "@/library/components/button";
+import { Button } from "@/library/components/buttons";
 
 export const AdminIndividualIntegrationComponent = () => {
   const routesContext = useContext(AsideBarContext);
