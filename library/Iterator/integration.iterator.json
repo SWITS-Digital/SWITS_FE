@@ -1,0 +1,75 @@
+{
+  "jobBoards": [
+    {
+      "category": "Free With Options",
+      "boards": [
+        {
+          "id": "fwo-1",
+          "name": "LinkedIn",
+          "dueDate": "2024-12-14T00:00:00Z",
+          "description": "FoundIt is an online job portal connecting job seekers with employers across various industries in India."
+        },
+        {
+          "id": "fwo-2",
+          "name": "Naukri",
+          "dueDate": "2025-03-13T00:00:00Z",
+          "description": "FoundIt is an online job portal connecting job seekers with employers across various industries in India."
+        }
+      ]
+    },
+    {
+      "category": "Paid Job Boards",
+      "boards": [
+        {
+          "id": "pjb-1",
+          "name": "LinkedIn",
+          "dueDate": "2024-11-20T00:00:00Z",
+          "description": "FoundIt is an online job portal connecting job seekers with employers across various industries in India."
+        },
+        {
+          "id": "pjb-2",
+          "name": "LinkedIn",
+          "dueDate": "2025-03-13T00:00:00Z",
+          "description": "FoundIt is an online job portal connecting job seekers with employers across various industries in India."
+        },
+        {
+          "id": "pjb-3",
+          "name": "LinkedIn",
+          "dueDate": "2024-12-14T00:00:00Z",
+          "description": "FoundIt is an online job portal connecting job seekers with employers across various industries in India."
+        },
+        {
+          "id": "pjb-4",
+          "name": "LinkedIn",
+          "dueDate": "2025-03-13T00:00:00Z",
+          "description": "FoundIt is an online job portal connecting job seekers with employers across various industries in India."
+        }
+      ]
+    },
+    {
+      "category": "Free Job Boards",
+      "boards": [
+        {
+          "id": "fjb-1",
+          "name": "Found It",
+          "description": "FoundIt is an online job portal connecting job seekers with employers across various industries in India."
+        },
+        {
+          "id": "fjb-2",
+          "name": "ZipRecruiter",
+          "description": "FoundIt is an online job portal connecting job seekers with employers across various industries in India."
+        },
+        {
+          "id": "fjb-3",
+          "name": "Indeed",
+          "description": "FoundIt is an online job portal connecting job seekers with employers across various industries in India."
+        },
+        {
+          "id": "fjb-4",
+          "name": "Career 24",
+          "description": "FoundIt is an online job portal connecting job seekers with employers across various industries in India."
+        }
+      ]
+    }
+  ]
+}

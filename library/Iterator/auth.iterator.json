@@ -1,0 +1,32 @@
+[
+  {
+    "checked": true,
+    "description": "This is your public display name.",
+    "disabled": false,
+    "label": "Username",
+    "name": "username",
+    "placeholder": "Username",
+    "required": true,
+    "rowIndex": 0,
+    "type": "text",
+    "value": "",
+    "variant": "Input",
+    "min": 2,
+    "max": 20
+  },
+  {
+    "checked": true,
+    "description": "Enter your password.",
+    "disabled": false,
+    "label": "Password",
+    "name": "password",
+    "placeholder": "Placeholder",
+    "required": true,
+    "rowIndex": 0,
+    "type": "",
+    "value": "",
+    "variant": "Password",
+    "min": 2,
+    "max": 20
+  }
+]
