@@ -60,7 +60,7 @@ export const NavBar = () => {
   return (
     <nav
       className={`w-full min-w-screen px-3 py-1 bg-secondaryBg flex items-center justify-between transition-transform duration-300 shadow-md ${
-        isSticky ? "sticky top-0" : "relative"
+        isSticky ? "sticky top-0 z-10" : "relative"
       }`}
     >
       <AppLogoComponent companyNameColor="lightBlack" size={sizeEnum.MEDIUM} />

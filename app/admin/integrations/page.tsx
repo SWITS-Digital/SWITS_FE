@@ -2,7 +2,7 @@ import { AdminIntegrationsComponent } from "@/Molecules/Admin/Integrations.Molec
 
 export default function AdminIntegrationHandlerPage() {
   return (
-    <main className="flex max-w-screen min-h-screen overflow-x-hidden">
+    <main className="flex max-w-screen overflow-x-hidden">
       <AdminIntegrationsComponent />
     </main>
   );

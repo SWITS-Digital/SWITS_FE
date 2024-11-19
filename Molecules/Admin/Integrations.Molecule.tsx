@@ -1,6 +1,6 @@
 "use client";
 
-import { useContext, useEffect } from "react";
+import { useContext, useLayoutEffect } from "react";
 
 import { AsideBarContext } from "@/store/context/Active-Page.context";
 import { RoutesListEnum } from "@/library/enum/routes.enum";
@@ -47,7 +47,7 @@ export const AdminIntegrationsComponent = () => {
     });
   };
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     routesContext.addActivePage(RoutesListEnum.INTEGRATIONS);
   }, []);
 

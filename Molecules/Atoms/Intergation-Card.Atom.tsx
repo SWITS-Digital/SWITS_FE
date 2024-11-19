@@ -7,7 +7,7 @@ import {
   CardContent,
 } from "@/library/components/card";
 
-import { daysLeft } from "@/library/utils";
+import { daysLeft, clippedText } from "@/library/utils";
 
 import { JobBoardType } from "@/library/interfaces/screens/integration.type";
 
@@ -18,7 +18,7 @@ export const IntegrationCardComponent = ({ data }: { data: JobBoardType }) => {
         <CardHeader className="p-1">
           <CardTitle></CardTitle>
         </CardHeader>
-        <CardContent className="p-2">
+        <CardContent className="p-2 h-40">
           <section className="flex flex-col items-center justify-center gap-3 w-full">
             <section className="flex items-center justify-start w-full gap-5">
               <section className="p-6 rounded-xl shadow-sm shadow-neutralLightGray"></section>
@@ -34,7 +34,7 @@ export const IntegrationCardComponent = ({ data }: { data: JobBoardType }) => {
               </section>
             </section>
             <section className="text-sm text-neutralLightGray">
-              <p>{data.description}</p>
+              <p>{clippedText(data.description, 130)}</p>
             </section>
           </section>
         </CardContent>

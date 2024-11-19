@@ -1,8 +1,10 @@
-"use client"
+"use client";
 
 import { NavBar } from "../components/navbar";
-import { SideBar } from "../components/sidebar";
+// import { SideBar } from "../components/sidebar";
+import { NavigationTabs } from "../components/navigation-tabs";
 import SideBarContextProvider from "@/store/context/Active-Page.context";
+import PaginationContextProvider from "@/store/context/Pagination.context";
 
 export const LayoutScreenWrapper = ({
   children,
@@ -14,10 +16,11 @@ export const LayoutScreenWrapper = ({
       <main className="flex flex-col items-center justify-start relative">
         <NavBar />
         <section className="flex items-center justify-center w-full">
-          <SideBar />
-          <section className="w-[95vw] ml-auto h-full py-10 px-8">
-            {children}
+          <NavigationTabs>
+          <section className="w-[95vw] ml-auto h-full py-6 px-3">
+            <PaginationContextProvider>{children}</PaginationContextProvider>
           </section>
+          </NavigationTabs>
         </section>
       </main>
     </SideBarContextProvider>

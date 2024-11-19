@@ -21,3 +21,9 @@ export enum sizeEnum {
   MEDIUM = "md",
   LARGE = "xl",
 }
+
+export enum paginationEnum {
+  PAGE = 1,
+  SIZE = 2,
+  TOTALPAGES = 1,
+}

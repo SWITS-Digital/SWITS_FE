@@ -7,13 +7,52 @@
           "id": "fwo-1",
           "name": "LinkedIn",
           "dueDate": "2024-12-14T00:00:00Z",
-          "description": "FoundIt is an online job portal connecting job seekers with employers across various industries in India."
+          "description": "FoundIt is an online job portal connecting job seekers with employers across various industries in India.",
+          "data": [
+            {
+              "companyName": "ABC Technologies-1",
+              "noOfUsers": 30,
+              "integrationDate": "2024-08-01T00:00:00Z",
+              "dueDate": "2024-12-14T00:00:00Z",
+              "status": "pending"
+            },
+            {
+              "companyName": "ABC Technologies-2",
+              "noOfUsers": 30,
+              "integrationDate": "2024-08-01T00:00:00Z",
+              "dueDate": "2024-12-14T00:00:00Z",
+              "status": "overdue"
+            },
+            {
+              "companyName": "ABC Technologies-3",
+              "noOfUsers": 30,
+              "integrationDate": "2024-08-01T00:00:00Z",
+              "dueDate": "2024-12-14T00:00:00Z",
+              "status": "paid"
+            }
+          ]
         },
         {
           "id": "fwo-2",
           "name": "Naukri",
           "dueDate": "2025-03-13T00:00:00Z",
-          "description": "FoundIt is an online job portal connecting job seekers with employers across various industries in India."
+          "description": "FoundIt is an online job portal connecting job seekers with employers across various industries in India.",
+          "data": [
+            {
+              "companyName": "ABC Technologies",
+              "noOfUsers": 30,
+              "integrationDate": "",
+              "dueDate": "",
+              "status": "pending"
+            },
+            {
+              "companyName": "ABC Technologies",
+              "noOfUsers": 30,
+              "integrationDate": "",
+              "dueDate": "",
+              "status": "pending"
+            }
+          ]
         }
       ]
     },
@@ -24,25 +63,109 @@
           "id": "pjb-1",
           "name": "LinkedIn",
           "dueDate": "2024-11-20T00:00:00Z",
-          "description": "FoundIt is an online job portal connecting job seekers with employers across various industries in India."
+          "description": "FoundIt is an online job portal connecting job seekers with employers across various industries in India.",
+          "data": [
+            {
+              "companyName": "ABC Technologies",
+              "noOfUsers": 30,
+              "integrationDate": "",
+              "dueDate": "",
+              "status": "pending"
+            },
+            {
+              "companyName": "ABC Technologies",
+              "noOfUsers": 30,
+              "integrationDate": "",
+              "dueDate": "",
+              "status": "pending"
+            },
+            {
+              "companyName": "ABC Technologies",
+              "noOfUsers": 30,
+              "integrationDate": "",
+              "dueDate": "",
+              "status": "pending"
+            },
+            {
+              "companyName": "ABC Technologies",
+              "noOfUsers": 30,
+              "integrationDate": "",
+              "dueDate": "",
+              "status": "pending"
+            }
+          ]
         },
         {
           "id": "pjb-2",
           "name": "LinkedIn",
           "dueDate": "2025-03-13T00:00:00Z",
-          "description": "FoundIt is an online job portal connecting job seekers with employers across various industries in India."
+          "description": "FoundIt is an online job portal connecting job seekers with employers across various industries in India.",
+          "data": [
+            {
+              "companyName": "ABC Technologies",
+              "noOfUsers": 30,
+              "integrationDate": "",
+              "dueDate": "",
+              "status": "pending"
+            },
+            {
+              "companyName": "ABC Technologies",
+              "noOfUsers": 30,
+              "integrationDate": "",
+              "dueDate": "",
+              "status": "pending"
+            }
+          ]
         },
         {
           "id": "pjb-3",
           "name": "LinkedIn",
           "dueDate": "2024-12-14T00:00:00Z",
-          "description": "FoundIt is an online job portal connecting job seekers with employers across various industries in India."
+          "description": "FoundIt is an online job portal connecting job seekers with employers across various industries in India.",
+          "data": [
+            {
+              "companyName": "ABC Technologies",
+              "noOfUsers": 30,
+              "integrationDate": "",
+              "dueDate": "",
+              "status": "pending"
+            },
+            {
+              "companyName": "ABC Technologies",
+              "noOfUsers": 30,
+              "integrationDate": "",
+              "dueDate": "",
+              "status": "pending"
+            },
+            {
+              "companyName": "ABC Technologies",
+              "noOfUsers": 30,
+              "integrationDate": "",
+              "dueDate": "",
+              "status": "pending"
+            },
+            {
+              "companyName": "ABC Technologies",
+              "noOfUsers": 30,
+              "integrationDate": "",
+              "dueDate": "",
+              "status": "pending"
+            },
+            {
+              "companyName": "ABC Technologies",
+              "noOfUsers": 30,
+              "integrationDate": "",
+              "dueDate": "",
+              "status": "pending"
+            }
+          ]
         },
         {
           "id": "pjb-4",
           "name": "LinkedIn",
           "dueDate": "2025-03-13T00:00:00Z",
-          "description": "FoundIt is an online job portal connecting job seekers with employers across various industries in India."
+          "description": "FoundIt is an online job portal connecting job seekers with employers across various industries in India.",
+          "data": []
         }
       ]
     },
@@ -52,22 +175,85 @@
         {
           "id": "fjb-1",
           "name": "Found It",
-          "description": "FoundIt is an online job portal connecting job seekers with employers across various industries in India."
+          "description": "FoundIt is an online job portal connecting job seekers with employers across various industries in India.",
+          "data": [
+            {
+              "companyName": "ABC Technologies",
+              "noOfUsers": 30,
+              "integrationDate": "",
+              "dueDate": "",
+              "status": "pending"
+            },
+            {
+              "companyName": "ABC Technologies",
+              "noOfUsers": 30,
+              "integrationDate": "",
+              "dueDate": "",
+              "status": "pending"
+            }
+          ]
         },
         {
           "id": "fjb-2",
           "name": "ZipRecruiter",
-          "description": "FoundIt is an online job portal connecting job seekers with employers across various industries in India."
+          "description": "FoundIt is an online job portal connecting job seekers with employers across various industries in India.",
+          "data": []
         },
         {
           "id": "fjb-3",
           "name": "Indeed",
-          "description": "FoundIt is an online job portal connecting job seekers with employers across various industries in India."
+          "description": "FoundIt is an online job portal connecting job seekers with employers across various industries in India.",
+          "data": [
+            {
+              "companyName": "ABC Technologies - 1",
+              "noOfUsers": 30,
+              "integrationDate": "",
+              "dueDate": "",
+              "status": "pending"
+            },
+            {
+              "companyName": "ABC Technologies - 2",
+              "noOfUsers": 30,
+              "integrationDate": "",
+              "dueDate": "",
+              "status": "pending"
+            },
+            {
+              "companyName": "ABC Technologies - 3",
+              "noOfUsers": 30,
+              "integrationDate": "",
+              "dueDate": "",
+              "status": "pending"
+            },
+            {
+              "companyName": "ABC Technologies - 4",
+              "noOfUsers": 30,
+              "integrationDate": "",
+              "dueDate": "",
+              "status": "pending"
+            }
+          ]
         },
         {
           "id": "fjb-4",
           "name": "Career 24",
-          "description": "FoundIt is an online job portal connecting job seekers with employers across various industries in India."
+          "description": "FoundIt is an online job portal connecting job seekers with employers across various industries in India.",
+          "data": [
+            {
+              "companyName": "ABC Technologies",
+              "noOfUsers": 30,
+              "integrationDate": "",
+              "dueDate": "",
+              "status": "pending"
+            },
+            {
+              "companyName": "ABC Technologies",
+              "noOfUsers": 30,
+              "integrationDate": "",
+              "dueDate": "",
+              "status": "pending"
+            }
+          ]
         }
       ]
     }
