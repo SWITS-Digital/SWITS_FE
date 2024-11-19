@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useMemo } from "react";
+import { useRouter } from "next/navigation";
 
 import { AuthPageParent } from "@/library/screens/Auth.screen";
 import { AuthVerificationPageContent } from "@/library/content/auth.content";
@@ -10,6 +11,7 @@ import { Button } from "@/library/components/buttons";
 
 export function OneTimePwordComponent() {
   const [otpValue, setOtpValue] = useState<string>("");
+  const router = useRouter();
   const memorizedOTPFields = useMemo(() => {
     return (
       <OTPCollectionFields otpValue={otpValue} setOtpValue={setOtpValue} />
@@ -38,6 +40,7 @@ export function OneTimePwordComponent() {
         <Button
           className="w-10/12 mt-16"
           disabled={!(!!otpValue && otpValue.length === 6)}
+          onClick={() => router.push('/admin/dashboard')}
         >
           Submit
         </Button>
