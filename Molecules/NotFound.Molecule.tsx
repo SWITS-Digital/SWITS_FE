@@ -7,6 +7,8 @@ import { Loader2 } from "lucide-react";
 import { Button } from "@/library/components/buttons";
 import { Input } from "@/library/components/input";
 
+import { Show } from "@/library/hooks/Show";
+
 import { NotFoundContent } from "@/library/content/notfound.content";
 
 export const NotFoundComponent = () => {
@@ -56,14 +58,13 @@ export const NotFoundComponent = () => {
             className="w-full bg-white/20 text-white placeholder-white/50"
           />
           <Button type="submit" variant="default" className="w-full">
-            {isSearching ? (
-              <>
+            <Show>
+              <Show.When isTrue={isSearching}>
                 <Loader2 className="mr-2 h-4 w-4 animate-spin" />
                 Searching...
-              </>
-            ) : (
-              "Search"
-            )}
+              </Show.When>
+              <Show.Else>{"Search"}</Show.Else>
+            </Show>
           </Button>
         </form>
         <Link href="/" passHref>
@@ -105,4 +106,4 @@ export const NotFoundComponent = () => {
       />
     </main>
   );
-}
+};
