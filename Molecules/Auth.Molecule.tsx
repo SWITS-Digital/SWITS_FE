@@ -82,7 +82,7 @@ export function AuthComponent() {
             control={form.control}
             render={({ field }) => (
               <FormItem className="w-full">
-                <FormLabel>{StaticContents.identifier}</FormLabel>
+                <FormLabel className="text-neutralDarkGray/75">{StaticContents.identifier}</FormLabel>
                 <FormControl>
                   <Input
                     placeholder={`Enter your ${StaticContents.identifier.toLowerCase()}`}
@@ -102,7 +102,7 @@ export function AuthComponent() {
             control={form.control}
             render={({ field }) => (
               <FormItem className="w-full">
-                <FormLabel>{StaticContents.password}</FormLabel>
+                <FormLabel className="text-neutralDarkGray/75">{StaticContents.password}</FormLabel>
                 <FormControl>
                   <PasswordInput
                     placeholder={`Enter your ${StaticContents.password.toLowerCase()}`}

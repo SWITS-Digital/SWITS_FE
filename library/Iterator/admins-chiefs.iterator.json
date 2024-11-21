@@ -1,18 +1,18 @@
 [
   {
     "name": "Adam",
-    "switsId": 23583,
+    "switsId": 23581,
     "companiesManaging": 20,
     "totalUsers": 1378,
-    "revenue": 1200000,
+    "revenue": 1200,
     "image": "https://static.vecteezy.com/system/resources/thumbnails/038/534/919/small_2x/ai-generated-smiley-indian-woman-radiating-joy-in-a-medium-shot-photo.jpg"
   },
   {
     "name": "Jack",
-    "switsId": 23583,
+    "switsId": 23582,
     "companiesManaging": 13,
     "totalUsers": 1178,
-    "revenue": 1200000,
+    "revenue": 1200,
     "image": "https://static.vecteezy.com/system/resources/thumbnails/038/534/919/small_2x/ai-generated-smiley-indian-woman-radiating-joy-in-a-medium-shot-photo.jpg"
   },
   {
@@ -20,15 +20,15 @@
     "switsId": 23583,
     "companiesManaging": 20,
     "totalUsers": 1378,
-    "revenue": 1200000,
+    "revenue": 1200,
     "image": "https://static.vecteezy.com/system/resources/thumbnails/038/534/919/small_2x/ai-generated-smiley-indian-woman-radiating-joy-in-a-medium-shot-photo.jpg"
   },
   {
     "name": "Emily",
-    "switsId": 23583,
+    "switsId": 23584,
     "companiesManaging": 30,
     "totalUsers": 2008,
-    "revenue": 1200000,
+    "revenue": 1200,
     "image": "https://static.vecteezy.com/system/resources/thumbnails/038/534/919/small_2x/ai-generated-smiley-indian-woman-radiating-joy-in-a-medium-shot-photo.jpg"
   }
 ]

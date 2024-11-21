@@ -6,6 +6,8 @@ import dayjs from "dayjs";
 import duration from "dayjs/plugin/duration";
 import utc from "dayjs/plugin/utc";
 
+import { CurrencyListEnum } from "../enum/currency.enum";
+
 dayjs.extend(duration);
 dayjs.extend(utc);
 
@@ -107,4 +109,26 @@ export function timeLeft(targetDate: string): string {
 export function clippedText(string: string, threshold: number): string {
   const isStrExceedLength = string.length > threshold;
   return isStrExceedLength ? `${string.slice(0, threshold)}...` : string;
+}
+
+export function MultiplierFn(numerator: number, denominator: number) {
+  return Number((numerator * denominator).toFixed(2));
+}
+
+export function currencyConverter({
+  baseValue,
+  Multiplier,
+  currency,
+}: {
+  baseValue: number;
+  Multiplier: number;
+  currency: CurrencyListEnum;
+}) {
+  const currencySymbol =
+    currency === CurrencyListEnum.INR
+      ? "₹"
+      : currency === CurrencyListEnum.USD
+      ? "$"
+      : "$";
+  return `${currencySymbol}${(baseValue * Multiplier).toFixed(0)}`;
 }

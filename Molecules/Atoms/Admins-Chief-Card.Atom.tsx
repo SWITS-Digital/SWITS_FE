@@ -1,3 +1,6 @@
+import { useContext } from "react";
+import { CurrencyHandleContext } from "@/store/context/Currency-Exchange.context";
+
 import Image from "next/image";
 import Link from "next/link";
 
@@ -8,7 +11,7 @@ import {
   CardContent,
 } from "@/library/components/card";
 
-import { cn } from "@/library/utils";
+import { cn, currencyConverter, MultiplierFn } from "@/library/utils";
 
 import { AdminsChiefContent } from "@/library/content/admin/chief-admins.content";
 
@@ -19,6 +22,7 @@ export const AdminChiefCardComponent = ({
 }: {
   data: AdminsChiefDataType;
 }) => {
+  const { data: currencyData } = useContext(CurrencyHandleContext);
   const commonLabelStyle = "text-secondary text-sm";
   const commonSectionStyle =
     "flex flex-col items-start justify-start gap-2 w-full";
@@ -59,20 +63,39 @@ export const AdminChiefCardComponent = ({
                 <p className={commonLabelStyle}>
                   {AdminsChiefContent.managingLabel}
                 </p>
-                <p className="text-lightBlack font-bold">{data.companiesManaging}</p>
+                <p className="text-lightBlack font-bold">
+                  {data.companiesManaging}
+                </p>
               </section>
               <section className="flex items-center justify-between w-full gap-4">
-                <section className={cn(commonSectionStyle, "border border-primary rounded-lg text-center flex flex-col items-center p-2")}>
-                  <p className={cn(commonLabelStyle, 'text-center')}>
+                <section
+                  className={cn(
+                    commonSectionStyle,
+                    "border border-primary rounded-lg text-center flex flex-col items-center p-2"
+                  )}
+                >
+                  <p className={cn(commonLabelStyle, "text-center")}>
                     {AdminsChiefContent.totalUserLabel}
                   </p>
                   <p className="text-lightBlack font-bold">{data.totalUsers}</p>
                 </section>
-                <section className={cn(commonSectionStyle, "border border-primary rounded-lg text-center flex flex-col items-center p-2")}>
-                  <p className={cn(commonLabelStyle, 'text-center')}>
+                <section
+                  className={cn(
+                    commonSectionStyle,
+                    "border border-primary rounded-lg text-center flex flex-col items-center p-2"
+                  )}
+                >
+                  <p className={cn(commonLabelStyle, "text-center")}>
                     {AdminsChiefContent.revenueLabel}
                   </p>
-                  <p className="text-cen">{data.revenue}</p>
+                  {/* <p className="text-cen">{MultiplierFn(data.revenue, currencyData.exchangeRate)}</p> */}
+                  <p className="text-center">
+                    {currencyConverter({
+                      baseValue: data.revenue,
+                      currency: currencyData.convertCurrency.to,
+                      Multiplier: currencyData.exchangeRate,
+                    })}
+                  </p>
                 </section>
               </section>
             </section>
