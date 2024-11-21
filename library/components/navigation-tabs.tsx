@@ -29,7 +29,7 @@ export const NavigationTabs = ({ children }: { children: React.ReactNode }) => {
     },
     {
       className: cn(defaultView),
-      href: "/admin/dashboard",
+      href: "/admin/chief-admin",
       label: RoutesListEnum.CHIEFADMIN,
     },
     {

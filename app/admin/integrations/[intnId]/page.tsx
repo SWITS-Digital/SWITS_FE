@@ -1,4 +1,4 @@
-import { AdminIndividualIntegrationComponent } from "@/Molecules/Admin/Individual-Integrations.Molecule";
+import { AdminIndividualIntegrationComponent } from "@/Molecules/Admin/Integrations/Individual-Integrations.Molecule";
 
 export default function AdminIndiIntnHandlerPage({
   params,

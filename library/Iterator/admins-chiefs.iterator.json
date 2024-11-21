@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Adam",
+    "switsId": 23583,
+    "companiesManaging": 20,
+    "totalUsers": 1378,
+    "revenue": 1200000,
+    "image": "https://static.vecteezy.com/system/resources/thumbnails/038/534/919/small_2x/ai-generated-smiley-indian-woman-radiating-joy-in-a-medium-shot-photo.jpg"
+  },
+  {
+    "name": "Jack",
+    "switsId": 23583,
+    "companiesManaging": 13,
+    "totalUsers": 1178,
+    "revenue": 1200000,
+    "image": "https://static.vecteezy.com/system/resources/thumbnails/038/534/919/small_2x/ai-generated-smiley-indian-woman-radiating-joy-in-a-medium-shot-photo.jpg"
+  },
+  {
+    "name": "Kumar",
+    "switsId": 23583,
+    "companiesManaging": 20,
+    "totalUsers": 1378,
+    "revenue": 1200000,
+    "image": "https://static.vecteezy.com/system/resources/thumbnails/038/534/919/small_2x/ai-generated-smiley-indian-woman-radiating-joy-in-a-medium-shot-photo.jpg"
+  },
+  {
+    "name": "Emily",
+    "switsId": 23583,
+    "companiesManaging": 30,
+    "totalUsers": 2008,
+    "revenue": 1200000,
+    "image": "https://static.vecteezy.com/system/resources/thumbnails/038/534/919/small_2x/ai-generated-smiley-indian-woman-radiating-joy-in-a-medium-shot-photo.jpg"
+  }
+]

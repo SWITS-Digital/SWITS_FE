@@ -27,3 +27,11 @@ export enum paginationEnum {
   SIZE = 2,
   TOTALPAGES = 1,
 }
+
+export enum ERestMethod {
+  GET = "GET",
+  POST = "POST",
+  PUT = "PUT",
+  PATCH = "PATCH",
+  DELETE = "DELETE",
+}
